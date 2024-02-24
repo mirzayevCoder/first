@@ -1,0 +1,32 @@
+.navbar-brand{
+  padding: 0 50px;
+}
+.nav-item{
+  padding: 0 20px;
+}
+.content{
+  min-height: calc(100vh - 70px - 42px);
+  padding: 1.5rem 0;
+}
+.list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.2rem;
+}
+.second-card{
+  background-image: url(tomatoes-tomatoes-lemon-leaves-garlic-bottle-oil-tree-branches_140725-74118.avif);
+  background-size: cover;
+}
+.movies{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.search_btn{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+label:not(:last-child){
+  margin-right: 1rem;
+}
